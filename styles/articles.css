@@ -1,0 +1,9 @@
+.article{
+    width: 300px;
+}
+
+.article .article-img{
+    width: 100%;
+    border-radius: 21px;
+    margin-bottom: 12px;
+}
