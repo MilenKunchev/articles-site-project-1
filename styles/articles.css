@@ -6,19 +6,22 @@
 /* ---------Images--------- */
 /*  ---------Aspect Ratio--------- */
 .article .article-img-wrapper {
+    /* Image is in wrapper and it is square */
     aspect-ratio: 1/1;
     border-radius: 18px;
     margin-bottom: 12px;
-
+    /*Fit the img in wrapper and border radius is visible   */
+    overflow: hidden;
 }
 
-.article .article-img {
+.article .article-img-wrapper .article-img {
+    object-fit: cover;
+    height: 100%;
     width: 100%;
-    border-radius: 18px;
-    margin-bottom: 12px;
+
 }
 
-.article .article-img-wrapper .article-title {
+.article .article-title {
     font-size: 21px;
     font-weight: bold;
     line-height: 28px;
