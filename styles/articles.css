@@ -1,9 +1,61 @@
-.article{
+/* ---------Article Component------- */
+.article {
     width: 300px;
 }
 
-.article .article-img{
-    width: 100%;
-    border-radius: 21px;
+/* ---------Images--------- */
+/*  ---------Aspect Ratio--------- */
+.article .article-img-wrapper {
+    aspect-ratio: 1/1;
+    border-radius: 18px;
     margin-bottom: 12px;
+
+}
+
+.article .article-img {
+    width: 100%;
+    border-radius: 18px;
+    margin-bottom: 12px;
+}
+
+.article .article-img-wrapper .article-title {
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 28px;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
+
+.article-description {
+    font-size: 14px;
+    font-weight: 300;
+    color: #4c5356;
+    line-height: 20px;
+}
+
+/*----------Tag components-------*/
+
+.tag {
+    display: inline-block;
+    margin-bottom: 10px;
+
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 6px;
+
+}
+
+.tag.tag--tips {
+    background-color: #90c9f4;
+    color: #2c5282;
+}
+
+.tag.tag--fixing {
+    background-color: #9ae6b4;
+    color: #276749;
+}
+
+.tag.tag--lesson {
+    background-color: #faf089;
+    color: #9b2c2c;
 }
