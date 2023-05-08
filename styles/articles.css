@@ -21,6 +21,7 @@
 }
 
 /* Select any third li element */
+/* .articles li:nth-child(3n+3) */
 /* margin-right: 0; */
 
 /* select any NOT-third li element  */
