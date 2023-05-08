@@ -1,6 +1,36 @@
+#articles-section {
+    max-width: 1200px;
+    margin: auto;
+    padding: 64px 0 calc(64px - 32px) 0;
+}
+
+#articles-section .title{
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 64px;
+}
+
+/* Articles Listing */
+.articles li {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin-bottom: 32px;
+    /* margin-right: 4%; */
+}
+
+/* Select any third li element */
+/* margin-right: 0; */
+
+/* select any NOT-third li element  */
+.articles li:not(:nth-child(3n+3)) {
+    margin-right: 4%;
+}
+
 /* ---------Article Component------- */
 .article {
-    width: 300px;
+    width: 100%;
 }
 
 /* ---------Images--------- */
@@ -40,10 +70,10 @@
 
 .tag {
     display: inline-block;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 
-    font-size: 12px;
-    padding: 4px 8px;
+    font-size: 14px;
+    padding: 6px 12px;
     border-radius: 6px;
 
 }
